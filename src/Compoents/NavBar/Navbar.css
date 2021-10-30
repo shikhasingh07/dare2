@@ -1,0 +1,80 @@
+.headerMain {
+  width: 100%;
+  border-bottom: 1px solid #ececec;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  transition: 0.2s;
+  opacity: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 53px !important;
+  position: fixed;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+.imageOver {
+  max-width: 120px;
+  max-height: 38px;
+  display: block;
+  height: auto;
+  width: auto;
+}
+.flases {
+  position: relative;
+}
+.flases::after {
+  content: "";
+  height: 100%;
+  opacity: 0.8;
+  background: url(https://d8it4huxumps7.cloudfront.net/images/d2c-logo/d2c-flashes.gif)
+    no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.form-control {
+  border-radius: 50px !important;
+  background: #eff3f4 !important;
+  height: 38px !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  padding: 0 15px 0 40px !important;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #eff3f4 !important;
+  min-width: 290px !important;
+  cursor: text;
+}
+.faSearch {
+  position: absolute;
+  left: 12px;
+  font-size: 14px;
+  color: #585858;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 24px;
+}
+.products:hover {
+  color: #176ede;
+}
+.btn {
+  background-color: #176ede !important;
+  transition: 0.3s;
+  padding: 0;
+  height: 36px;
+  line-height: normal !important;
+  color: #ececec !important;
+  min-width: 140px !important;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+}
+.signGate {
+  font-size: 22px;
+  color: #176ede;
+}
